@@ -30,7 +30,12 @@ footer {
 
 .logotype-big {
     text-align: center;
-    font-size: 50pt;
+    max-width: 100%;
+    /* font-size: 50pt; */
+}
+
+h1 {
+    max-width: 100%;
 }
 
 header {
@@ -106,8 +111,9 @@ button:hover {
 }
 
 img {
-    size: 100%;
+    max-width: 100%;
 }
+
 .body-homepage {
     text-align: center;
 }
