@@ -3,7 +3,7 @@ html {
     padding: 0;
     background-color: #fdeabf;
     color: #000000;
-    font-family: monospace, sans-serif;
+    font-family: monospace, serif;
 }
 
 .body {
@@ -25,7 +25,6 @@ footer {
 
 .logotype {
     font-weight: bold;
-    font-family: 'Open Sans Regular', sans-serif;
 }
 
 .logotype-big {
@@ -93,7 +92,7 @@ button {
     font-size: initial;
     background-color: #ffca50;
     color: #000000;
-    font-family: monospace, sans-serif;
+    font-family: monospace, serif;
     transition: 200ms;
 }
 
