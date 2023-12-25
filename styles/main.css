@@ -1,0 +1,111 @@
+html {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #0f0f0f, #1c0124, #0f0f0f);
+    color: #f5f5f5;
+    font-family: 'Gabarito Regular', sans-serif;
+}
+
+.body {
+    margin: 8px
+}
+
+footer {
+    color: #f5f5f5;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    text-align: center;
+    padding-top: 2.5px;
+    padding-bottom: 5px;
+}
+
+.logotype {
+    font-weight: bold;
+    font-family: 'Open Sans Regular', sans-serif;
+}
+
+.logotype-big {
+    text-align: center;
+    font-size: 50pt;
+}
+
+header {
+    margin: 0;
+    padding: 0;
+    color: #f5f5f5;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container-branding {
+    padding-left: 20px;
+}
+
+.container-links {
+    padding-left: 5px;
+    padding-right: 10px;
+    text-align: right;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav li {
+    padding-right: 1em;
+}
+
+a {
+    text-decoration: none;
+    color: #f5f5f5;
+    transition: 200ms;
+}
+
+a:hover {
+    color: #ffffff;
+    transition: 200ms;
+    font-weight: bold;
+}
+
+button {
+    border-radius: 5px;
+    border: none;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    margin: 0.1em;
+    text-align: center;
+    -webkit-text-size-adjust: auto;
+    text-size-adjust: auto;
+    font-size: initial;
+    background-color: #222222;
+    color: #f5f5f5;
+    font-family: 'Gabarito Regular', sans-serif;
+    transition: 200ms;
+}
+
+button:hover {
+    transition: 200ms;
+    background-color: #333333;
+    cursor: pointer;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.button {
+    max-width: fit-content;
+    max-width: -moz-fit-content;
+    margin-bottom: 5px;
+}
+
+.gif-margin {
+    margin: 10px;
+}
+
+.body-homepage {
+    text-align: center;
+}

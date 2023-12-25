@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Unavaliable URL - Error 404</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://lucmsilva651.github.io/website-files/styles/main.css">
+    <link rel="stylesheet" href="https://lucmsilva651.github.io/website-files/styles/scroll.css">
+    <meta name="title" content="Unavaliable URL - Error 404">
+    <meta name="description" content="Sorry, but the URL that you requested is not avaliable.">
+    <meta name="keywords" content="unavaliable, error, 404">
+    <meta name="robots" content="noindex, nofollow">
+    <script src="https://lucmsilva651.github.io/website-files/js/axios/axios.min.js"></script>
+    <script src="https://lucmsilva651.github.io/website-files/js/axios-header/displayHeader.js"></script>
+    <link rel="shortcut icon" href="https://lucmsilva651.github.io/website-files/favicon/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <div class="header">
+        <div id="contentContainer"></div>
+    </div>
+    <div class="body">
+        <p id="404" class="bolder-jstext"></p>
+        <p>Try this instead: <b><a href="/">Go to the Home Page</a></b></p>
+    </div>
+    <script>
+        var currentUrl = window.location.href;
+        var errorMessage = document.getElementById("404");
+        errorMessage.textContent = "Sorry, but the URL " + "''" + currentUrl + "''" + " is not avaliable.";
+    </script>
+    <footer>
+        <div class="footer">
+            <p>2023 - Lucas Gabriel (lucmsilva). All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>

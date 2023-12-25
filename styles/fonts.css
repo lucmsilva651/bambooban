@@ -1,0 +1,14 @@
+@font-face {
+    font-family: 'Gabarito Regular';
+    src: url(/fonts/Gabarito-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Open Sans Regular';
+    src: url(/fonts/OpenSans-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Inter Variable';
+    src: url(/fonts/Inter-VariableFont.ttf);
+}
