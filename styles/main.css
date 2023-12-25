@@ -86,7 +86,7 @@ button {
     -webkit-text-size-adjust: auto;
     text-size-adjust: auto;
     font-size: initial;
-    background-color: #222222;
+    background-color: #ffca50;
     color: #000000;
     font-family: monospace, sans-serif;
     transition: 200ms;
@@ -94,16 +94,10 @@ button {
 
 button:hover {
     transition: 200ms;
-    background-color: #333333;
+    background-color: #ffd471;
     cursor: pointer;
     color: #000000;
     font-weight: bold;
-}
-
-.button {
-    max-width: fit-content;
-    max-width: -moz-fit-content;
-    margin-bottom: 5px;
 }
 
 .gif-margin {
